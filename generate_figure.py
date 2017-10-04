@@ -5,3 +5,5 @@ import seaborn as sns
 #another comment
 df = sns.load_dataset('tips')
 seaborn_plot = sns.pairplot(df, hue = 'sex', kind = 'reg')
+seaborn_plot.savefig('pairplot.png')
+# a comment to the end of the file
